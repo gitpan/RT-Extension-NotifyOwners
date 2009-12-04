@@ -4,7 +4,7 @@ use warnings;
 
 package RT::Extension::NotifyOwners;
 
-our $VERSION = '0.01_01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -12,8 +12,8 @@ RT::Extension::NotifyOwners
 
 The NotifyOwners extension adds the following scrip actions:
 
-    Notify Last Owner       - Users with OwnTicket right
-    Notify Potential Owners - Previous owner
+    Notify Last Owner       - Previous owner
+    Notify Potential Owners - Users with OwnTicket right
     Notify Previous Owners  - All previous owners
 
 =head1 DESCRIPTION
